@@ -30,6 +30,8 @@ Questions based on scientific evidence reported in the literature
 1.Install the conda enviroment using the yml file provided.
 
 ``` conda env create -f environment.yaml ```
+
+
 2.activate the environment:
 
 ``` conda activate clinfo ```
