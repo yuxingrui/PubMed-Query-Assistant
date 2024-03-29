@@ -1,0 +1,12 @@
+{
+    "input_variables": [
+        "article_text",
+        "article_summary"
+    ],
+    "output_parser": null,
+    "partial_variables": {},
+    "template": "Below is a summary of the information from a clinical article. Using this summary:\n\n\"{article_summary}\"\n\n, decide whether it can perfectly sum up the article text:\n\n \"{article_text}\"\n\nAnswer must be either yes or no\n",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}

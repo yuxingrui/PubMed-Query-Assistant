@@ -1,0 +1,9 @@
+{
+    "input_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "template": "You are a helpful assistant that helps extract keywords from clinical questions which could be used to find relevant Mesh words to help conduct search in PubMed",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}

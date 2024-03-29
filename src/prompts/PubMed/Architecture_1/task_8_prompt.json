@@ -1,0 +1,12 @@
+{
+    "input_variables": [
+        "question",
+        "synthesis"
+    ],
+    "output_parser": null,
+    "partial_variables": {},
+    "template": "Below is a synthesis of the information from a list of clinical article summaries. Using this synthesis:\n\n\"{synthesis}\"\n\n, answer the clinical Question:\n\n \"{question}\"\n\nAnswer must be either yes or no or maybe\n",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}

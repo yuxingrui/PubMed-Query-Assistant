@@ -1,0 +1,9 @@
+{
+    "input_variables": ["question"],
+    "output_parser": null,
+    "partial_variables": {},
+    "template": "Give me the most relevant keywords to this clinical question:\n---\n\"{question}\"\n---\nThe keywords should be in a python string seperated by comma.\nGive only the kewords string and nothing else.\n\n\n ",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
