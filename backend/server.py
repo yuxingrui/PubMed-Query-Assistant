@@ -1,5 +1,5 @@
 import sys
-sys.path.append("d:/Clinfo.AI/src")
+sys.path.append("../../src")
 from fastapi import FastAPI, Request, WebSocket, WebSocketDisconnect
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates

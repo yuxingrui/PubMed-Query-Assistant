@@ -40,6 +40,12 @@ Questions based on scientific evidence reported in the literature
 
 refer to ./src/notebooks/1_ClinfoAI_pipeline.ipynb
 
+## web interface
+
+use the command:
+``` uvicorn main:app --port 8001 --reload ```
+
+then you can use it in localhost:8001
 
 
 
