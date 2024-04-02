@@ -1,9 +1,9 @@
 import sys
 import os 
-sys.path.append("..")
+sys.path.append("../../../")
 from  pathlib  import  Path
-from  utils.pubmed_utils     import Neural_Retriever_PubMed
-from  utils.bm25              import bm25_ranked
+from  src.utils.pubmed_utils     import Neural_Retriever_PubMed
+from  src.utils.bm25              import bm25_ranked
 from fastapi import WebSocket
 
 async def stream_output(type, output, websocket:WebSocket=None, logging=True):
@@ -35,7 +35,7 @@ class ClinfoAI:
 
     def init_engine(self):
         if self.engine  == "PubMed":
-            ARCHITECTURE_PATH = Path('../prompts/PubMed/Architecture_1/master.json')
+            ARCHITECTURE_PATH = Path('./src/prompts/PubMed/Architecture_1/master.json')
             self.NEURAL_RETRIVER   = Neural_Retriever_PubMed(architecture_path=ARCHITECTURE_PATH ,verbose=False,debug=False,open_ai_key=self.openai_key,email=self.email)
             print("PubMed Retriever Initialized")
         else:

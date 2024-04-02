@@ -13,10 +13,10 @@ import json
 
 import sys
 import openai
-sys.path.append('..')
+sys.path.append('../../../')
 
-from utils.prompt_compiler import PromptArchitecture, read_json
-from utils.get_mesh_vocabulary import get_mesh_list
+from src.utils.prompt_compiler import PromptArchitecture, read_json
+from src.utils.get_mesh_vocabulary import get_mesh_list
 from langchain.prompts.chat import (
     ChatPromptTemplate,
     SystemMessagePromptTemplate,

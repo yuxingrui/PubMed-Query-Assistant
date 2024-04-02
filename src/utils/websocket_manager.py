@@ -1,6 +1,6 @@
 # connect any client to gpt-researcher using websocket
 import sys
-sys.path.append("d:\Clinfo.AI")
+sys.path.append("../../../")
 import asyncio
 import datetime
 from typing import List, Dict
